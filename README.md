@@ -1,6 +1,7 @@
 # 3D-Dynamic-Scene-Processing-Pipeline
 
-This repository contains a comprehensive pipeline for processing multi-view video data to generate dynamic 3D point clouds and filter camera trajectories. The pipeline is designed to work with the Panoptic dataset and is structured into several modular processing steps, including image processing, point cloud generation, metadata creation, trajectory filtering, and visualization.
+This repository contains a comprehensive pipeline for processing multi-view video data to generate dynamic 3D point clouds and filter camera trajectories. 
+It is to preprocess data to execute Dynamic 3D Gaussians (https://github.com/JonathonLuiten/Dynamic3DGaussians) and post-process to get point trajectories, according to TAPVid-3D (https://github.com/google-deepmind/tapnet/tree/main/tapnet/tapvid3d).
 
 ## 🚀 Key Features
 
