@@ -56,7 +56,7 @@ The data processing pipeline follows these sequential steps:
         * World-to-camera transformation matrices (`w2c`).
         * A list of file names (`fn`) for each frame and camera.
 
-*** In this level, you should execute "Dynamic 3DGS" first.
+### *** In this level, you should execute "Dynamic 3DGS" first. ***
 
 4.  **Trajectory Filtering** (`filter`):
     * Loads the 3D Gaussian Splatting results and the generated metadata.
