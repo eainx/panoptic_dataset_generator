@@ -25,10 +25,10 @@ The project is organized into the following key modules:
     * `metadata_generator.py`: Creates the metadata files required for training.
     * `trajectory_filter.py`: Implements the logic for filtering 3D trajectories.
     * `post_processor.py`: Splits the output data based on camera difficulty.
-    * `visualize.py`: Contains the `Visualizer` class for creating trajectory visualizations.
 * `utils/`: A directory with utility functions for camera operations and common tasks:
     * `camera_utils.py`: Includes functions for unprojecting depth, finding nearest cameras, and interpolating colors.
     * `common_utils.py`: Provides helper functions, such as reading depth data.
+    * `visualize.py`: Contains the `Visualizer` class for creating trajectory visualizations.
 
 ## Workflow
 
